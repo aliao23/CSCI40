@@ -1,0 +1,61 @@
+/* style.css */
+
+html {
+	font-family: sans-serif;
+
+}
+
+p {
+	color:#ffd1dc;
+}
+
+p:first-of-type {
+	color:blue;
+}
+
+li {
+	color:#eeeee;
+}
+
+span.harry {
+	color: #ffd1dc;
+}
+
+ol.menu {
+	padding: 0px;
+}
+
+li.menu {
+	list-style-type: none;
+	height: 30px;
+	width: 200px
+}
+
+li.menu:hover{
+	background: white;
+}
+
+h1 {
+	padding: 10px;
+}
+
+.mydiv {
+	background: lightblue;
+
+}
+
+div.menu {
+	float: left;
+	background: orange;
+
+}
+
+.title {
+	background: red;
+	text-align: center;
+}
+
+.content {
+	background: lightgreen;
+	margin: 0px;
+}
