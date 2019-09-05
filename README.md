@@ -1,1 +1,1 @@
-# cmc-csci040
+#CMC-CSCI40
