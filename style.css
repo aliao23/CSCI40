@@ -6,15 +6,8 @@ html {
 }
 
 p {
-	color:#ffd1dc;
-}
-
-p:first-of-type {
-	color:blue;
-}
-
-li {
-	color:#eeeee;
+	color:#000000;
+	font-family: serif;
 }
 
 span.harry {
@@ -22,7 +15,7 @@ span.harry {
 }
 
 ol.menu {
-	padding: 0px;
+	padding: 10px;
 }
 
 li.menu {
@@ -45,14 +38,27 @@ h1 {
 }
 
 div.menu {
-	float: left;
+	float: right;
 	background: orange;
 
 }
 
+.cake {
+	background: #c9c9c9;
+}
+
+.chocolate {
+	background: #fc8f8b;
+}
+
+.burger {
+	color: #fc8f8b;
+}
+
 .title {
-	background: red;
+	background: #fcef8b;
 	text-align: center;
+	color: white;
 }
 
 .content {
