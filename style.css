@@ -2,66 +2,63 @@
 
 html {
 	font-family: sans-serif;
+	background-color: white;
 
+}
+
+a {
+  	font-weight: bold;
+	text-decoration: none;
+	color: #ffd7df;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.title {
+	background: #ffd7df;
+	text-align: center;
+	color: black;
+}
+
+img {
+	display: block;
+ 	 margin-left: auto;
+  	 margin-right: auto;
+ 	 width: 30%;
 }
 
 p {
 	color:#000000;
-	font-family: serif;
 }
 
-span.harry {
-	color: #ffd1dc;
-}
-
-ol.menu {
-	padding: 10px;
-}
-
-li.menu {
-	list-style-type: none;
-	height: 30px;
-	width: 200px
-}
-
-li.menu:hover{
-	background: white;
-}
 
 h1 {
-	padding: 10px;
+	padding: 20px;
 }
 
-.mydiv {
-	background: lightblue;
-
-}
 
 div.menu {
-	float: right;
-	background: orange;
-
-}
-
-.cake {
-	background: #c9c9c9;
-}
-
-.chocolate {
-	background: #fc8f8b;
-}
-
-.burger {
-	color: #fc8f8b;
-}
-
-.title {
-	background: #fcef8b;
 	text-align: center;
-	color: white;
+
 }
 
-.content {
-	background: lightgreen;
-	margin: 0px;
+.mainimage {
+  	 
+ 	 padding: 20px;
+
+}
+
+.banner {
+	background: #ffd7df;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.minilist {
+	color: #fc8f8b;
+	padding-left: 5px;
 }
