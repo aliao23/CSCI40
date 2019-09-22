@@ -6,6 +6,12 @@ html {
 
 }
 
+@media screen and (orientation:landscape) {
+  img {
+    display: none;
+  }
+}
+
 a {
   	font-weight: bold;
 	text-decoration: none;
@@ -27,7 +33,7 @@ img {
 	display: block;
  	 margin-left: auto;
   	 margin-right: auto;
- 	 width: 30%;
+ 	 width: 300px;
 }
 
 p {
