@@ -6,12 +6,6 @@ html {
 
 }
 
-@media screen and (orientation:landscape) {
-  img {
-    display: none;
-  }
-}
-
 a {
   	font-weight: bold;
 	text-decoration: none;
@@ -33,8 +27,15 @@ img {
 	display: block;
  	 margin-left: auto;
   	 margin-right: auto;
- 	 width: 300px;
+ 	 width: 30%;
 }
+
+@media screen and (max-width:900px) {
+  img {
+    display: none;
+  }
+}
+
 
 p {
 	color:#000000;
