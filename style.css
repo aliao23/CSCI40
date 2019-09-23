@@ -108,3 +108,8 @@ div.menu {
 .thirdminilist {
 		color: #4672ae;
 }
+
+.bottommenu {
+	text-align: center;
+	padding: 40px
+}
